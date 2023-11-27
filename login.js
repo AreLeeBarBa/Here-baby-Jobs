@@ -7,7 +7,7 @@ function checkPassword() {
     let p = pass.value;
     console.log(u);
     console.log(p);
-    if (u == "pitsamai" && p == "123456") {
+    if (u == "pitsamai@gmail.com" && p == "123456") {
         result.innerHTML = "Login Success";
         let url = "หน้าหลัก.html";
         let newWindow = window.open(url);
