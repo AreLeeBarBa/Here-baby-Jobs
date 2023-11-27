@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav .container1 {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            background: #75D9C1;
+        }
+        
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .menu {
+            display: flex;
+        }
+        
+        .menu li {
+            list-style: none;
+            margin-left: 2rem;
+            margin-top: 10px;
+        }
+        
+        .menu li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            color: whitesmoke;
+            transition: all 0.2s;
+        }
+        
+        .logo a {
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .blog p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------  NAVBAR----- ------>
+    <nav>
+        <div class="container1">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">HERE BABY JOBS</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="หน้าหลัก.html">Home</a></li>
+                    <li><a href="/home.html/images/ติดต่อสอบถามเรา.html">ติดต่อเรา</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="ค้นหาสินค้า">
+
+            <a href="index1.html" class="sidebar-items">สินค้ามือ2 (ของเล่นเด็ก)</a>
+            <a href="index2.html" class="sidebar-items">สินค้ามือ2 (เสื้อผ้าเด็ก)</a>
+            <a href="index3.html" class="sidebar-items">สินค้ามือ2 (เครื่องปั๊มนม)</a>
+            <a href="index4.html" class="sidebar-items">สินค้ามือ2 (ขวดนม/ขวดน้ำเด็ก)</a>
+            <a href="index5.html" class="sidebar-items">สินค้ามือ2 (รถเข็นเด็ก)</a>
+            <a href="index6.html" class="sidebar-items">สินค้ามือ2 (จักรยานเด็ก)</a>
+            <a href="index7.html" class="sidebar-items">สินค้ามือ2(Carseat)</a>
+            <a href="index8.html" class="sidebar-items">สินค้ามือ2 (คอกกั้นเด็ก)</a>
+            <a href="index9.html" class="sidebar-items">สินค้ามือ2 (หนังสือเด็ก)</a>
+            <a href="index1.html" class="sidebar-items">BACK</a>
+        </div>
+        <div class="product">
+            <div class="product1">
+                <div class="product-items">
+                    <img class="product-img" src="data:image/jpeg;base64,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"
+                        alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 300 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://bonusstoreonline.com/wp-content/uploads/2018/07/001.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 500 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://www.chitida.com/wp-content/uploads/2020/12/Dual-S-01.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 200 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrsNPGNL5J_jeJApIXSLjGQkSdJ6M55Vhrni_rVK7mBIli4CVZ0WQh3EqJOX8PP5D0UM&usqp=CAU" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 200 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.makewebeasy.net/makeweb/m_1920x0/NjEgodtoc/DefaultData/Cimilre_F1_300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 400 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.bestreview.asia/wp-content/uploads/2021/11/best-breast-pumps-02-300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 300 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrsNPGNL5J_jeJApIXSLjGQkSdJ6M55Vhrni_rVK7mBIli4CVZ0WQh3EqJOX8PP5D0UM&usqp=CAU" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 600 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.makewebeasy.net/makeweb/m_1920x0/NjEgodtoc/DefaultData/Cimilre_F1_300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 400 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.bestreview.asia/wp-content/uploads/2021/11/best-breast-pumps-02-300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 320 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrsNPGNL5J_jeJApIXSLjGQkSdJ6M55Vhrni_rVK7mBIli4CVZ0WQh3EqJOX8PP5D0UM&usqp=CAU" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 250 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.makewebeasy.net/makeweb/m_1920x0/NjEgodtoc/DefaultData/Cimilre_F1_300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 260 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://image.bestreview.asia/wp-content/uploads/2021/11/best-breast-pumps-02-300x300.jpg" alt="">
+                    <p style="text">เครื่องปั๊มนม <br> 330 บาท</p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav .container1 {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            background: #75D9C1;
+        }
+        
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .menu {
+            display: flex;
+        }
+        
+        .menu li {
+            list-style: none;
+            margin-left: 2rem;
+            margin-top: 10px;
+        }
+        
+        .menu li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            color: whitesmoke;
+            transition: all 0.2s;
+        }
+        
+        .logo a {
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .blog p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------  NAVBAR----- ------>
+    <nav>
+        <div class="container1">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">HERE BABY JOBS</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="หน้าหลัก.html">Home</a></li>
+                    <li><a href="/home.html/images/ติดต่อสอบถามเรา.html">ติดต่อเรา</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="ค้นหาสินค้า">
+
+            <a href="index1.html" class="sidebar-items">สินค้ามือ2 (ของเล่นเด็ก)</a>
+            <a href="index2.html" class="sidebar-items">สินค้ามือ2 (เสื้อผ้าเด็ก)</a>
+            <a href="index3.html" class="sidebar-items">สินค้ามือ2 (เครื่องปั๊มนม)</a>
+            <a href="index4.html" class="sidebar-items">สินค้ามือ2 (ขวดนม/ขวดน้ำเด็ก)</a>
+            <a href="index5.html" class="sidebar-items">สินค้ามือ2 (รถเข็นเด็ก)</a>
+            <a href="index6.html" class="sidebar-items">สินค้ามือ2 (จักรยานเด็ก)</a>
+            <a href="index7.html" class="sidebar-items">สินค้ามือ2(Carseat)</a>
+            <a href="index8.html" class="sidebar-items">สินค้ามือ2 (คอกกั้นเด็ก)</a>
+            <a href="index9.html" class="sidebar-items">สินค้ามือ2 (หนังสือเด็ก)</a>
+            <a href="index1.html" class="sidebar-items">BACK</a>
+        </div>
+        <div class="product">
+            <div class="product1">
+                <div class="product-items">
+                    <img class="product-img" src="https://i0.wp.com/babylovemuslin.com/wp-content/uploads/2020/06/4-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B8%9C%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B21%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%A2%E0%B8%B7%E0%B8%94_01.png?resize=860%2C541&ssl=1"
+                        alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 30 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="data:image/jpeg;base64,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"
+                        alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 50 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://www.chomshop.com/wp-content/uploads/2022/03/01-43.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 50 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="/home.html/images/เด็ก2.png" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 50 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="/home.html/images/เด็ก2.jfif" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="/home.html/images/เสื้อเด็ก.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://www.chomshop.com/wp-content/uploads/2022/03/01-43.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 50 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://www.chomshop.com/wp-content/uploads/2021/08/01-12.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 50 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://down-th.img.susercontent.com/file/sg-11134201-7rbn2-ll3a7485ujbm1a" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+                <div class="product-items">
+                    <img class="product-img" src="https://i.pinimg.com/236x/1f/90/9a/1f909aa30b4ed278455f24f5f452323f.jpg" alt="">
+                    <p style="text">เสื้อผ้าสำหรับเด็ก <br>ราคา 40 บาท</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

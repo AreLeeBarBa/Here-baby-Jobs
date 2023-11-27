@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Centre</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav .container1 {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            background: #75D9C1;
+        }
+        
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .menu {
+            display: flex;
+        }
+        
+        .menu li {
+            list-style: none;
+            margin-left: 2rem;
+            margin-top: 10px;
+        }
+        
+        .menu li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            color: whitesmoke;
+            transition: all 0.2s;
+        }
+        
+        .logo a {
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .blog p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+            color: black;
+        }
+        
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Noto Sans", sans-serif;
+            text-decoration: none;
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+        
+        *::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .container {
+            width: 90vw;
+            margin: 0 auto;
+            display: flex;
+        }
+        
+        .sidebar {
+            width: 20%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product {
+            width: 1040px;
+            height: 100%;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            border: 3px solid #75D9C1;
+            border-radius: 20px;
+            background: #fff;
+        }
+        
+        .product1 {
+            width: 1000px;
+            height: 100%;
+        }
+        
+        .product-items {
+            width: 150px;
+            height: 150px;
+            margin: 2rem;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            border: 3px solid #75D9C1;
+            border-radius: 20px;
+            background: #fff;
+        }
+        
+        .product-items img {
+            width: 65px;
+            height: 100px;
+            margin-left: 40px;
+            margin-top: -10px;
+        }
+        
+        .sidebar-search {
+            padding: 10px;
+            border: 2px solid transparent;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+            border-radius: 5px;
+            background: #75D9C1;
+            transition: 0.3s;
+            margin-bottom: 20px;
+        }
+        
+        .sidebar-search:focus {
+            border: 2px solid #75D9C1;
+        }
+        
+        .sidebar-items {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #75D9C1;
+            color: #000;
+            transition: 300ms;
+            font-size: 16px;
+            background: #75D9C1;
+        }
+        
+        .sidebar-items:hover {
+            background: #75D9C1;
+            color: #fff;
+        }
+        
+        .product-items {
+            cursor: pointer;
+            transition: 0.3s;
+            margin-left: 20px;
+        }
+        
+        .product-items:hover {
+            transform: scale(1.03);
+            color: #fff;
+        }
+        
+        .product-items p {
+            background-color: #75D9C1;
+            border-radius: 10px;
+            border: 1px solid #e5e5e5;
+            width: 100px;
+            font-size: 10px;
+            margin-left: 25px;
+            margin-top: 2px;
+        }
+        
+        .product2 {
+            width: 950px;
+            height: 100%;
+            background: #fff;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        
+        .product2 label {
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        
+        .product3 label {
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        
+        .product3 {
+            margin-left: 70px;
+        }
+        
+        .product2 input {
+            width: 900px;
+            height: 50px;
+            font-size: 16px;
+            outline: none;
+            border-radius: 10px;
+            transition: 0.3s;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            border: 2px solid #75D9C1;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------  NAVBAR----- ------>
+    <nav>
+        <div class="container1">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">HERE BABY JOBS</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="หน้าหลัก.html">Home</a></li>
+                    <li><a href="/home.html/images/ติดต่อสอบถามเรา.html">ติดต่อเรา</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="สินค้าของฉัน">
+            <a href="#" class="sidebar-items">รายการสินค้าของฉัน</a>
+            <a href="ขายสินค้า.html" class="sidebar-items">เพิ่มสินค้าใหม่</a>
+            <a href="#" class="sidebar-items">ตั้งค่าสินค้า</a>
+            <a href="#" class="sidebar-items">การจัดส่งสินค้า</a>
+            <a href="#" class="sidebar-items">การยกเลิกสินค้า</a>
+            <a href="#" class="sidebar-items">รายรับของฉัน</a>
+            <a href="#" class="sidebar-items">บัญชีธนาคาร</a>
+            <a href="#" class="sidebar-items">ตั้งค่าการชำระเงิน</a>
+            <a href="#" class="sidebar-items">ตั้งค่าที่อยู่ร้าน</a>
+            <a href="#" class="sidebar-items">BACK</a>
+        </div>
+        <div class="product">
+            <div class="product1">
+                <h2>ข้อมูลทั่วไป > เพิ่มสินค้าใหม่</h2>
+                <div class="product2">
+                    <label>ภาพสินค้า *รูปภาพขนาด 1:1</label>
+                    <div class="product-items">
+                        <img class="product-img" src="/home.html/images/Add_Image.png" alt="">
+                        <p style="font">เพิ่มรูปภาพ <br> (0/9) </p>
+                    </div>
+                </div>
+            </div>
+            <div class="product3">
+                <label>วิดีโอสินค้า *ขนาด : ไม่เกิน 30 Mb, 1280x1280px (ระยะเวลา : 10-60 วินาที)</label>
+
+                <div class="product-items">
+                    <img class="product-img" src="/home.html/images/video_add.png" alt="">
+                    <div class="font">
+                        <p style="font">เพิ่มวิดีโอสินค้า <br> (0/2) </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product2">
+                <label>* ชื่อสินค้าของฉัน</label>
+                <input type="text" class="inputtext" placeholder="ชื่อสินค้าของฉัน">
+            </div>
+            <div class="product2">
+                <label>* หมวดหมู่สินค้าของฉัน</label>
+                <input type="text" class="inputtext" placeholder="หมวดหมู่สินค้าของฉัน">
+            </div>
+            <div class="product2">
+                <label>* รายละเอียดสินค้าของฉัน</label>
+                <input type="text" class="inputtext" placeholder="รายละเอียดสินค้าของฉัน">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
