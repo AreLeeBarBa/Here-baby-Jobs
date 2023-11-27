@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ติดต่อสอบถามเรา</title>
+
+    <script src="https://kit.fontawesome.com/88dfe94bff.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: "Times New Roman", Times, serif;
+            transition: 0.5s;
+        }
+        
+        .body {
+            background: #fff;
+        }
+        
+        nav .container1 {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            background: #75D9C1;
+        }
+        
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .menu {
+            display: flex;
+        }
+        
+        .menu li {
+            list-style: none;
+            margin-left: 2rem;
+            margin-top: 10px;
+        }
+        
+        .menu li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            background-color: whitesmoke;
+            transition: all 0.2s;
+            border-radius: 2px;
+        }
+        
+        .logo a {
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        
+        header {
+            background-color: #f7faf9;
+            color: #030303;
+            padding: 9px;
+            text-align: center;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        
+        .class {
+            height: 670px;
+            width: 550px;
+            background-color: #75D9C1;
+            border-radius: 40px;
+            border: solid #75D9C1;
+            margin-top: 40px;
+            padding: 10px;
+            margin-left: 450px;
+        }
+        
+        .class1 {
+            height: 850px;
+            width: 550px;
+            background-color: #75D9C1;
+            border-radius: 40px;
+            border: solid #75D9C1;
+            margin-top: 40px;
+            padding: 10px;
+            margin-left: 450px;
+        }
+        
+        .box p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .box h2 {
+            text-align: center;
+        }
+        
+        .box h3 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .box img {
+            height: 300px;
+            width: 500px;
+            margin-left: 15px;
+            margin-top: 30px;
+            border-radius: 30px;
+        }
+        
+        .box button {
+            width: 500px;
+            height: 50px;
+            border-radius: 40px;
+            border: solid #75D9C1;
+            background-color: #fff;
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container2 {
+            max-width: 960px;
+            height: 960px;
+            width: 100%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container3 {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .container button {
+            width: 300px;
+            height: 50px;
+            margin-left: 300px;
+            background-color: #75D9C1;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .container button p {
+            font-size: 20px;
+        }
+        
+        button:hover {
+            transform: scale(1.03);
+        }
+        
+        .info1 {
+            width: 100%;
+            height: 1000px;
+            background: #fff;
+        }
+        
+        .info1_area {
+            color: #333;
+            margin: 20px auto;
+            margin-left: 50px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info1_area img {
+            margin-top: 10px;
+            float: left;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .info1_text {
+            text-align: left;
+            width: 100%;
+            float: left;
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+        
+        .info1_text h1 {
+            margin: 0;
+            font-size: 30px;
+            width: 800px;
+        }
+        
+        .info1_text p {
+            margin: 0;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 800px;
+        }
+        
+        .info2 {
+            max-width: 500px;
+            width: 100%;
+            margin: 10px auto;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .info2 a img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .info2 img:hover {
+            transform: scale(1.5);
+        }
+        
+        .info3 button {
+            font-size: 20px;
+            font-family: animation-name;
+            width: 200px;
+            height: 60px;
+            color: black;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin: 20px;
+            background-color: #75D9C1;
+        }
+        
+        .info3 button:hover {
+            transform: scale(1.03);
+        }
+        
+        .info3 a {
+            text-decoration: none;
+            text-align: center
+        }
+        
+        .info3 button p {
+            color: black;
+        }
+        
+        footer {
+            background-color: #75D9C1;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+
+    <body>
+        <!---------  NAVBAR----- ------>
+        <nav>
+            <div class="container1">
+                <div class="nav-con">
+                    <div class="logo">
+                        <a href="#">HERE BABY JOBS</a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="/home.html/หน้าหลัก.html">Home</a></li>
+                        <li><a href="/home.html/ซื้อสินค้า.html">ซื้อสินค้ากับเรา</a></li>
+                        <li><a href="/home.html/ขายสินค้า.html">ขายสินค้ากับเรา</a></li>
+                        <li><a href="/home.html/แนะนำบริการพี่เลี้ยง.html">แนะนำบริการเว็บพี่เลี้ยง</a></li>
+                        <li><a href="/home.html/images/ติดต่อสอบถามเรา.html">ติดต่อเรา</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class="info2">
+            <a href="#" target="_blank">
+                <img src="/home.html/images/Facebook_Logo_(2019).png" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img src="/home.html/images/LINE_logo.png" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img src="/home.html/images/instagram-icon-logo-free-png..webp" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img src="/home.html/images/twitter-.png" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img src="/home.html/images/Youtube_logo.png">
+            </a>
+        </div>
+
+        <section class="info1">
+            <div class="container2">
+                <h1>Contact (ข้อมูลติดต่อ)</h1>
+                <br>
+                <p>- Telephone Number : 084-307-3755</p>
+                <p>- Email Address : Pitsamai.kri@spumail.net</p>
+                <p>- Address : 123 หมู่บ้านบุญสูง ซอยวิภาวดีรังสิต 46 แขวงลาดยาว เขตจตุจักร กรุงเทพ 10900</p>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.968299268153!2d100.55898126139213!3d13.840941431753324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ce930de6f8f%3A0xf83cadd5f0f35b78!2zMTIzIOC4i-C4reC4oiDguKfguLTguKDguLLguKfguJTguLXguKPguLHguIfguKrguLTguJUgNDYg4LmB4LiC4Lin4LiH4Lil4Liy4LiU4Lii4Liy4LinIOC5gOC4guC4leC4iOC4leC4uOC4iOC4seC4geC4oyDguIHguKPguLjguIfguYDguJfguJ7guKHguKvguLLguJnguITguKMgMTA5MDA!5e0!3m2!1sth!2sth!4v1698320948259!5m2!1sth!2sth"
+                    width="870" height="780" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+            </div>
+        </section>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required>
+                </textarea>
+
+                <button type="submit"><p>Submit</p></button>
+            </form>
+        </div>
+        <section class="info3 ">
+            <div class="container3 ">
+                <div class="info3 ">
+                    <center><button><a href="/home.html/หน้าหลัก.html"><p><< Back </p> </a></button></center>
+                </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Here Baby Job</p>
+        </footer>
+
+    </body>
+
+</html>
