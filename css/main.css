@@ -1,0 +1,122 @@
+C * {
+    font-family: "poppins", sans-serif !important;
+}
+
+body {
+    margin: 0;
+    background-color: #75D9C1;
+    height: 50px;
+}
+
+header {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+nav ul li a {
+    color: #000000;
+}
+
+nav ul li a:hover {
+    background: #686868;
+    color: #ffffff;
+    transition: all .3s;
+}
+
+.Logo {
+    font-size: 35px;
+    font-weight: 700;
+    height: 80px;
+    line-height: 60px;
+    padding: 0px 0px;
+    text-align: right;
+}
+
+.cover {
+    background-image: url(/home.html/images/babys.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.my-form {
+    background: #75D9C1;
+    padding: 30px 50px 50px;
+    width: 400px;
+}
+
+.my-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(12, 1, 1);
+}
+
+.cover .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /*justify-content: center;*/
+}
+
+.cover .my-form .btn {
+    width: 100%;
+}
+
+.benefit {
+    padding: 50px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.T1 {
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+}
+
+.T2 {
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+}
